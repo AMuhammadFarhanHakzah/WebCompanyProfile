@@ -49,14 +49,14 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="{{url('/')}}">Home</a></li>
+          <li><a class="nav-link scrollto active" href="{{url('/')}}#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="{{url('/')}}#about">About</a></li>
           <li><a class="nav-link scrollto" href="{{url('/')}}#services">Services</a></li>
           <li><a class="nav-link scrollto" href="{{url('/')}}#team">Team</a></li>
           <li><a href="{{url('/berita')}}">Berita</a></li>
           <li><a href="{{url('/pengumuman')}}">Pengumuman</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Login</a></li>
+          <li><a class="getstarted scrollto" href="{{'login'}}">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
